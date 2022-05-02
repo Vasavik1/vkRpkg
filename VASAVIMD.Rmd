@@ -1,0 +1,22 @@
+---
+title: "VASAVIMD"
+author: "vasavi"
+date: "5/2/2022"
+output: html_document
+---
+```{r}
+library(readr)
+data <- read_csv("C:/Users/Vasavi Koneru/Desktop/data.csv")
+View(data)
+```
+
+```{r}
+library(vasavipkg)
+```
+
+
+```{r}
+vs(data$bp)
+```
+
+
